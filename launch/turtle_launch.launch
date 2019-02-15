@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="turtlesim_demo" type="publisher" name="publisher"> 
+    </node>
+    <node pkg="turtlesim_demo" type="subscriber" name="subscriber" output="screen" launch-prefix="gnome-terminal --command"> 
+    </node>
+</launch>
